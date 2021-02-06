@@ -1,0 +1,150 @@
+*{
+	margin:0;
+	padding:0;
+}
+@font-face{
+	font-family:firebomb;
+	src: url('FIREBOMB.ttf');
+}
+#glavni{
+	position:relative;
+	width:1920px;
+	height:937px;
+	background:url("slike/ozadje5.jpg");
+}
+.firebricks{
+	color:red;
+}
+#okvir{
+	position:absolute;
+	background:lightblue;
+	left:500px;
+	top:15px;
+	border: 4px solid lightblue;
+	border-radius:25px;
+}
+p{
+	color:red;
+}
+#naslov{
+	position:absolute;
+	font-family:firebomb;
+	width:450px;
+	margin-left:10%;
+	line-height:70px;
+	font-size:40px;
+	color:black;
+	top:15px;
+	left:-160px;
+	
+}
+#tocke_cas{
+	position:absolute;
+	background-color:lightblue;
+	width:120px;
+	margin-left:10%;
+	line-height:30px;
+	font-size:20px;
+	color:white;
+	border: 4px solid lightblue;
+	border-radius:12px;
+	top:120px;
+	left:160px;
+	font-family:firebomb;
+}
+
+#tocke{margin-left:10%;background-color: lightblue;}
+
+#tockovnik{
+	position:absolute;
+	width:400px;
+	height:400px;
+	left:1500px;
+	top:30px;
+	float:right;
+}
+#ena{
+	top:350px;
+}
+#dva{
+	top:500px;
+}
+.slike1{
+	position:absolute;
+	top:110px;
+	left:30px;
+	width:140px;
+	height:140px;
+	color:red;
+	padding-left:10px;
+}
+.slike2{
+	position:absolute;
+	top:290px;
+	left:30px;
+	width:140px;
+	height:140px;
+	color:red;
+	padding-left:10px;
+}
+.slike3{
+	position:absolute;
+	top:450px;
+	left:30px;
+	width:140px;
+	height:140px;
+	color:red;
+	padding-left:10px;
+}
+.naslov{
+	font-family:firebomb;
+	font-size:60px;
+	text-align:center;
+}
+.tocke{
+	position:absolute;
+	font-family:firebomb;
+	font-size:30px;
+	text-align:center;
+	top:150px;
+	left:200px;
+	color:red;
+}
+#meni{
+	font-family:firebomb;
+	width:400px;
+	height:600px;
+	position:absolute;
+	top:250px;
+	left:35px;
+}
+#tezavnost{
+	font-size:35px;
+	color:red;
+	margin-left:90px;
+}
+#lahka:hover{
+	color:red;
+	cursor:pointer;
+	
+}
+#srednja:hover{
+	color:red;
+	cursor:pointer;
+	
+}
+#tezka:hover{
+	color:red;
+	cursor:pointer;
+	
+}
+.gumb{
+	background:url("slike/gumb1.png");
+	width:380px;
+	height:135px;
+	font-size:35px;
+	padding-top:50px;
+	font-family:Mc;
+	text-align:center;
+	color:white;
+}
